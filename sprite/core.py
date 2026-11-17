@@ -15,11 +15,6 @@ class Cell:
     frame: int = -1
 
 
-def Cell:
-    """class"""
-    raise NotImplementedError("Cell 尚未实现")
-
-
 def plan_sprite(count, cell, cols):
     """排出格子位置"""
     raise NotImplementedError("plan_sprite 尚未实现")

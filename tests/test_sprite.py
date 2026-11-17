@@ -5,6 +5,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import sprite as mod  # noqa: E402
+sprite = mod
 
 def read_text(path):
     with open(path, encoding="utf-8") as f:
